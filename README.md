@@ -6,14 +6,15 @@ BGA-Net/
 
 ├── configs/
 │   └── lane_detection/
-│       └── bezierlanenet/
-│           └── resnet18_culane_aug1b_with_transformer.py  # Main configuration file
+│       ├── bezierlanenet/
+│       │   └── resnet18_culane_aug1b_with_transformer.py  # Main configuration file
+│       └── common/
+│           └── optims
+│               └── combineloss.py                         # Multi-task loss function
 ├── utils/
-│   ├── models/
-│   │   └── lane_detection/
-│   │       └── bezier_lane_net.py    # Backbone & Transformer architecture
-│   └── losses/
-│       └── CombineLoss.py            # Multi-task loss function
+│   └── models/
+│       └── lane_detection/
+│           └── bezier_lane_net.py    # Backbone & Transformer architecture
 ├── data/                             # Datasets (CULane, TuSimple, etc.)
 ├── tools/                            # Training & evaluation scripts
 ├── docs/
