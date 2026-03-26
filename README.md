@@ -3,7 +3,6 @@
 Our work is based on [pytorch auto drive](https://github.com/voldemortX/pytorch-auto-drive)
 ```Shell
 BGA-Net/
-
 ├── configs/
 │   └── lane_detection/
 │       ├── bezierlanenet/
