@@ -8,7 +8,7 @@ BGA-Net/
 │       ├── bezierlanenet/
 │       │   └── resnet18_culane_aug1b_with_transformer.py  # Main configuration file
 │       └── common/
-│           └── optims
+│           └── optims/
 │               └── combineloss.py                         # Multi-task loss function
 ├── utils/
 │   └── models/
